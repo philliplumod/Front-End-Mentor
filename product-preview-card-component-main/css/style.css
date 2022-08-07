@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    background-color:hsl(30, 38%, 92%);
+
+}
+
+/* TYPHOGRAPHY  */
+
+h1 {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    color: rgba(0, 0, 0, );
+}
+
+h2 {
+    margin: 0 0 1em 0;
+    font-weight: 500;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.637);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+p {
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+/* LAYOUT */
+
+.container {
+    width: 70%;
+    max-width: 375px;
+    margin: 1em  auto;
+
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.card-image{
+   width: 100%;
+}
+
+.card-content {
+    padding: 2em;
+}
+
+.price {
+    display: flex;
+    color:hsl(158, 36%, 37%);
+    /* padding: 1em; */
+}
+
+.price > h2 {
+    margin: .6em 0 0 1.8em;
+    letter-spacing: 0;
+    text-decoration: line-through;
+}
+
+/* Button */
+
+
+.btn {
+    display: inline-block;
+    padding: 1.2em 1.5em;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    transform: scale(1);
+    transition: transform 900ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    transform: scale(1.1);
+}
+
+
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
