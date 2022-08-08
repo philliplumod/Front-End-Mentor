@@ -44,10 +44,11 @@ p {
 
 }
 
-img {
+.content-image {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit:fill;
 }
 
 .card {
@@ -79,34 +80,32 @@ img {
 
 /* Button */
 
-
 .btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
     display: inline-block;
-    padding: 1.2em 1.5em;
-    font-size: .8rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 1px;
-    border: 0;
-    cursor: pointer;
-    margin-top: 1em;
-    border-radius: 10px;
+    border-radius: 13px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: hsl(158, 36%, 37%);
+    padding: 1.3em;
+    text-decoration: none;
     width: 100%;
+    margin-top: .9em;
+    border: none;
+  }
+  
+  .btn:hover {
+    background:hsl(159, 28%, 29%);
+    text-decoration: none;
+  }
+
+@media (min-width:750px){
+
+
+
 }
-
-.btn-primary {
-    background-color:hsl(158, 36%, 37%);
-    color: white;
-    transform: scale(1);
-    transition: transform 900ms;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    transform: scale(1.1);
-}
-
-
 
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
