@@ -8,6 +8,11 @@
 body {
     font-size: 1rem;
     background-color:  hsl(30, 38%, 92%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-width: 100vh;
 }
 
 /* TYPHOGRAPHY  */
@@ -69,19 +74,23 @@ p {
     height: 100%;
     border-start-start-radius: 10px;
     border-end-start-radius: 10px;
+    min-height: 0;
+    min-width: 0;
 }
 
 .container {
-    margin: 0.9em auto 0 auto;
+    margin-top: 1.7em;
     /* border: 1px solid black; */
     width: 100%;
     max-width: 750px;
+ 
     background-color: white;
     border-radius: 10px;
 }
 
 .card-container {
     display: flex;
+    flex-direction: row;
 }
 
 .card-content {
